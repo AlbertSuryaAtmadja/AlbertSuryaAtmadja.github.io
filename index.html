@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Albert Konversi Suhu</title>
+        <!-- ini link css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="body">
+        <!-- Judul -->
+        <header class="header-container">
+            <h1 class="header-text">Webesite Konversi Suhu</h1>
+            <h3>Suhu atau temperatur adalah alat yang menunjukkan derajat atau ukuran panas suatu benda. Mudahnya, semakin tinggi suhu suatu benda, semakin panas benda tersebut. Secara mikroskopis, suhu menunjukkan energi yang dimiliki oleh suatu benda.</h3>
+        </header>
+        <!-- main content -->
+        <main>
+             <div class="content-container">
+                <h2 class="header-text">Masukan Suhu Derajat Celcius &deg;c</h2>
+
+                <!-- section celcius -->
+                 <section class="celcius-container">
+                    <header>
+                        <h3>Celcius (&deg;c)</h3>
+                    </header>
+    
+                    <section>
+                        <textarea placeholder="Suhu Celcius" id="inputCelcius" type="text"></textarea>
+                    </section>
+                    <br>
+                    <a>
+                        <button class="button grenn" id="convertButton">KONFERSI</button>
+                        <button class="button red" id="resetButton">RESET</button>
+                        <button class="button blue" id="convertReverse">REVERSE</button>
+                    </a>
+                 </section>
+
+                 <section class="result-container">
+                   <!-- section fahrenheit -->
+                  <section>
+                    <header>
+                        <h3>Fahrenheit (&deg;F)</h3>
+                    </header>
+    
+                    <section>
+                        <textarea placeholder="Suhu Fahrenheit" id="outputFahrenheit" type="text"></textarea>
+                    </section>
+                  </section>
+    
+                   <!-- section calculate -->
+                  <section>
+                    <header>
+                        <h3>Convertion Calculate</h3>
+                    </header>
+    
+                    <section>
+                        <textarea placeholder="Rumus Kalkulasi" id="formula" type="text"></textarea>
+                    </section>
+                  </section>
+                 </section>
+                 <br>
+                 <a>
+                   <button class="button silver" id="copyButton">COPY</button>
+                 </a>
+             </div>
+            <!-- section formula/info -->
+             <section class="formula-container">
+                 <header>
+                    <h1 class="header-text">Cara Konfersi Dari Celcius (&deg;C) Ke Fahrenheit (&deg;F)</h1>
+                 </header>
+                 <h4>Suhu <span class="subject-info">S</span> Dalam Derajat Fahrenheit (&deg;F) Sama Dengan Suhu <span class="subject-info">S</span> Dalam Derajat Celcius (&deg;C) DiKali 9/5 Ditambah 32 </h4>
+                 <p>
+                    <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> × 9/5) + 32             
+                 </p>
+                 <p>
+                   ATAU          
+                 </p>
+                 <p>
+                    <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> × 1.8) + 32             
+                 </p>
+                <hr>    <!--     hr     -->
+                <header>
+                    <h1 class="header-text">Cara Konfersi Dari Fahrenheit (&deg;F) Ke Celcius (&deg;C)</h1>
+                 </header>
+                 <h4>Suhu <span class="subject-info">S</span> Dalam Derajat Celcius (&deg;C) Sama Dengan Suhu <span class="subject-info">S</span> Dalam Derajat Fahrenheit (&deg;F) Dikurangi 32 Dibagi 5/9 </h4>
+                 <p>
+                    <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) × 5/9             
+                 </p>
+                 <p>
+                   ATAU          
+                 </p>
+                 <p>
+                    <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) × 0.5556             
+                 </p>
+             </section> 
+        </main>
+        <hr>
+        <!-- Footer -->
+        <div class="footer-container">
+            <div>
+                <p>Yang Membuat Website ini: Albert | Gambar: 
+                <a class="text-a" href="https://img.itch.zone/aW1hZ2UvMjA0NDE5OC8xMjAyNzg5Ni5qcGc=/original/%2FgGzz4.jpg" target="_blank">Google</a>
+                </p>
+            </div>
+            <div class="footer-profil">
+                <a class="logo" title="My Instagram" href="https://instagram.com/alrydj" target="_blank">
+                    <img src="assets/IG.png" width="24%" height="24%">
+                </a>
+                <a class="logo" title="RevoU" href="https://www.revou.co" target="_blank">
+                    <img src="assets/RevoU.png" width="18%" height="18%">
+                </a>
+            </div>
+        </div>
+        <!-- ini link javascript -->
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
+<!-- Website Ini Dibuat oleh Albert Surya Atmadja. -->

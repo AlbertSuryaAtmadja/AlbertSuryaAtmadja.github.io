@@ -1,0 +1,239 @@
+/* ini css */
+
+/* Tampilan Komputer */
+.body {
+    background-image: url(../assets/DarkForest.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.header-container {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    text-shadow: 2px 1px black;
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.content-container {
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: 520px;
+    display: flow-root;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(2, 2, 2, 0.274);
+    margin-left: 50px;
+    margin-right: 50px;
+    transform: scale(1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards;
+    opacity: 0;
+    animation-delay: 0.1s;
+    
+}
+
+.formula-container {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(2, 2, 2, 0.274);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards;
+    opacity: 0;
+    animation-delay: 0.1s;
+}
+
+.footer-container {
+    border-radius: 5px;
+    backdrop-filter: brightness(0.2);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #232d45;
+    padding: 10px;
+    height: 120px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.footer-profil {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+textarea {
+    resize: none;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    align-content: center;
+}
+
+textarea:hover {
+    border-style: inset;
+    backdrop-filter: brightness(0.8);
+    transition: .1s;
+}
+
+.celcius-container {
+    text-align: center;
+}
+
+/* button style */
+.button {
+    background-color: #c5c9b8;
+    border: 1px solid #a2a2a2;
+    border-radius: 5px;
+    height: 38px;
+    width: 110px;
+    font-family: fantasy;
+    color: #2c2c2c;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+.grenn:hover {
+    background-color: #6ef862;
+    border: #f3fff2;
+    color: rgb(23, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 10px;
+    box-shadow: 1px 2px#a2a2a2;
+    font-size: 17px;
+}
+
+.red:hover {
+    background-color: #ff4e4e;
+    border: #ffd6d6;
+    color: rgb(23, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 10px;
+    box-shadow: 1px 2px#a2a2a2;
+    font-size: 17px;
+}
+
+.blue:hover {
+    background-color: #52e3fd;
+    border: #d2f8ff;
+    color: rgb(23, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 10px;
+    box-shadow: 1px 2px#a2a2a2;
+    font-size: 17px;
+}
+
+.silver:hover {
+    background-color: #636c6e;
+    border: #d5d5d5;
+    color: rgb(23, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 10px;
+    box-shadow: 1px 2px#a2a2a2;
+    font-size: 17px;
+}
+
+.subject-info {
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
+
+.text-a {
+    color: white;
+}
+
+.header-text {
+    padding: 25px;
+    font-family: system-ui;
+}
+
+/*tampilan Hp */
+@media (max-width: 600px) {
+    .header-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .button {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .content-container {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 670px;
+    }
+
+    .formula-container {
+        text-align: center;
+        height: 830px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .result-container {
+        display: block;
+    }
+    
+    .footer-container {
+        height: 110px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    textarea {
+        font-size: 18px;
+    }
+    
+    .body {
+        background-image: url(../assets/DarkForest.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+/*Animasi ketika web dibuka */
+@keyframes fadeInScale {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Website Ini Dibuat Oleh Albert Surya Atmadja. */
